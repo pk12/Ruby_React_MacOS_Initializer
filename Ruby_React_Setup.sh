@@ -27,9 +27,7 @@ fi
 read -p "Insert the ruby version that you want to install in the formant X.X.X: " VER
 while ! [[ $VER =~ ^([0-9]*.){1,5}$ ]]
 do 
-    echo "Invalid ruby version syntax"
-    echo "Insert the ruby version that you want to install in the formant X.X.X"
-    read ruby_version
+    read -p "Insert the ruby version that you want to install in the formant X.X.X: " VER
 done
 
 echo "Attempting to install ruby $VER"
