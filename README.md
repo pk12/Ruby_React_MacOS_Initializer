@@ -10,7 +10,7 @@ A shell script that installs all the necassary components to develop using Ruby 
 
 # What is installed
 
-- Homebrew (Rosetta version for now), there is a check in order to run it after Rosetta if needed.
+- Homebrew (Rosetta version for now), there is a check in order to run it on Rosetta if needed.
 - rbenv
 - Ruby (Your selected ruby version)
 - Bundler
